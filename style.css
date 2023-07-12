@@ -1,0 +1,425 @@
+body
+{
+    background-color: black;
+    background-size: contain;
+}
+#heading
+{
+    color:chartreuse;
+   
+}
+.container
+{
+    height:450px;
+    width:1100px;
+    border:5px solid red;
+    margin:auto;
+
+}
+#head
+{
+    height:125px;
+    width:150px;
+   background: chartreuse;
+    margin:auto;
+    margin-top:20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transition:width 1s ease-out;
+}
+.container:hover #head
+{
+    transform:translateX(20px);
+    animation:head 1s infinite;
+
+}
+@keyframes head
+{
+    0%
+    {
+        transform:translateY(20px);
+        
+    }
+    25%
+    {
+        transform:translateX(-20px);
+        
+    }
+    50%
+    {
+        transform:translateY(20px);
+        
+    }
+    75%
+    {
+        transform:translateY(-20px);
+       
+    }
+    
+    100%
+    {
+        transform:translateX(20px);
+        
+    }
+}
+    
+
+#eyes
+{
+    display:flex;
+    width:110px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#lefteye
+{
+    height:40px;
+    width:20px;
+    background-color:black;
+    border-radius: 50%;
+    margin:auto;
+    transition:width 1s ease-out;
+}
+.container:hover #lefteye
+{
+    animation: lefteye 2s infinite;
+}
+@keyframes lefteye
+{
+    0%
+    {
+        height:0px;
+        background: pink;
+    }
+    25%
+    {
+        height:40px;
+        background: red;
+    }
+    50%
+    {
+        height:0px;
+        background: yellow ;
+    }
+    75%
+    {
+        height:40px;
+        background: green ;
+    }
+    
+    100%
+    {
+        height:0px;
+        background: blueviolet ;
+    }
+
+}
+#righteye
+{
+    height:40px;
+    width:20px;
+    background-color:black;
+    border-radius: 50%;
+}
+.container:hover #righteye
+{
+    animation: righteye 2s infinite;
+   
+}
+@keyframes righteye
+{
+    0%
+    {
+        height:0px;
+        background: pink;
+    }
+    25%
+    {
+        height:40px;
+        background: red;
+    }
+    50%
+    {
+        height:0px;
+        background: yellow ;
+    }
+    75%
+    {
+        height:40px;
+        background: green ;
+    }
+    
+    100%
+    {
+        height:0px;
+        background: blueviolet ;
+    }
+
+}
+.body
+{
+    display:flex;
+    width:250px;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-top: 2%;
+}
+#center
+{
+    height:140px;
+    width:150px;
+    background-color:chartreuse;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin:auto;
+  margin-top:1%;
+}
+.container:hover #center
+{
+    animation: center 1s infinite;
+    border-radius: 25%;
+}
+@keyframes center
+{
+    0%
+    {
+        transform:rotate(0deg);
+        background: pink;
+    }
+    25%
+    {
+        transform:rotate(60deg);
+        background: red;
+    }
+    50%
+    {
+        transform:rotate(90deg);
+        background: yellow ;
+    }
+    75%
+    {
+        transform:rotate(180deg);
+        background: green ;
+    }
+    
+    100%
+    {
+        transform:rotate(360deg);
+        background: blueviolet ;
+    }
+
+}
+.container
+
+#lefthand
+{
+    height:100px;
+    width:25px;
+    background: chartreuse;
+    border-radius: 25%;
+    margin-top: 10%;
+}
+.container:hover #lefthand
+{
+    animation: lefthand 1.5s infinite;
+    
+   
+}
+@keyframes lefthand
+{
+    0%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: pink;
+      
+    }
+    
+    25%
+    {
+        transform:rotate(45deg);
+        transform-origin: top-center;
+        background: red;
+    }
+    50%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: yellow ;
+    }
+    75%
+    {
+        transform:rotate(45deg);
+        transform-origin: top-center;
+        background: green ;
+    }
+    
+    100%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: blueviolet ;
+    }
+
+}
+    
+
+
+#righthand
+{
+    height:100px;
+    width:25px;
+    background: chartreuse;
+    border-radius: 25%;
+    margin-top: 10%;
+}
+.container:hover #righthand
+{
+    animation: righthand 1s infinite;
+   
+}
+@keyframes righthand
+{
+    0%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: pink;
+      
+    }
+    
+    25%
+    {
+        transform:rotate(45deg);
+        transform-origin: top-center;
+        background: red;
+    }
+    50%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: yellow ;
+    }
+    75%
+    {
+        transform:rotate(45deg);
+        transform-origin: top-center;
+        background: green ;
+    }
+    
+    100%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: blueviolet ;
+    }
+
+}
+.leg
+{
+    display:flex;
+    width:125px;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-top: 10px;
+}
+#leftleg
+{
+    height:100px;
+    width:25px;
+    background: chartreuse;
+    border-radius: 25%;
+    
+}
+.container:hover #leftleg
+{
+    animation: leftleg 1.5s infinite;
+   
+}
+@keyframes leftleg
+{
+    0%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: pink;
+      
+    }
+    
+    25%
+    {
+        transform:rotate(-90deg);
+        transform-origin: top-center;
+        background: red;
+    }
+    50%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: yellow ;
+    }
+    75%
+    {
+        transform:rotate(-90deg);
+        transform-origin: top-center;
+        background: green ;
+    }
+    
+    100%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: blueviolet ;
+    }
+
+}
+#rightleg
+{
+    height:100px;
+    width:25px;
+    background: chartreuse;
+    border-radius: 25%;
+   
+}
+.container:hover #rightleg
+{
+    animation: rightleg 1.5s infinite;
+   
+}
+@keyframes rightleg
+{
+    0%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: pink;
+      
+    }
+    
+    25%
+    {
+        transform:rotate(-90deg);
+        transform-origin: top-center;
+        background: red;
+    }
+    50%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: yellow ;
+    }
+    75%
+    {
+        transform:rotate(-90deg);
+        transform-origin: top-center;
+        background: green ;
+    }
+    
+    100%
+    {
+        transform:rotate(0deg);
+        transform-origin: top-center;
+        background: blueviolet ;
+    }
+
+}
